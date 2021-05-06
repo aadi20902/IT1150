@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>Rosie's Flower Service</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  margin: 0;
+}
+
+.header {
+  padding: 80px;
+  text-align: center;
+  background: pink;
+  color: white;
+}
+
+.header h1 {
+  font-size: 40px;
+}
+
+
+.navbar {
+  overflow: hidden;
+  background-color: grey;
+}
+
+
+.navbar a {
+  float: left;
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 20px;
+  text-decoration: none;
+}
+
+.navbar a.right {
+  float: right;
+}
+
+.navbar a:hover {
+  background-color: white;
+  color: black;
+}
+
+.row {  
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+}
+
+.side {
+  -ms-flex: 30%;
+  flex: 30%;
+  background-color: white;
+  padding: 20px;
+}
+
+.main {  
+  -ms-flex: 70%;
+  flex: 70%;
+  background-color: white;
+  padding: 20px;
+}
+
+.fakeimg {
+  background-color: grey;
+  width: 100%;
+  padding: 20px;
+}
+
+.footer {
+  padding: 20px;
+  text-align: center;
+  background: silver;
+}
+
+  .row {  
+    flex-direction: column;
+  }
+}
+
+@media screen and (max-width: 400px) {
+  .navbar a {
+    float: none;
+    width: 100%;
+  }
+}
+</style>
+</head>
+<body>
+
+<div class="header">
+  <h1>Rosie's Flower Service</h1>
+  <p>Rosie's Flower Shop has provided floral and gift delivery to the Strongsville and Cleveland area since 1945. Our designers have 20 plus years of experience creating unique beautiful arrangements for every occasion. We offer a large variety of fresh flowers, baskets and gifts. Enjoy the convenience of safe and secure online ordering 24 hours a day. Our goal is to exceed our customers' expectations with quality, value and professional service. Rosie's Flowers, your modern florist with traditional values.</p>
+</div>
+
+<div class="navbar">
+  <a href="#">Home</a>
+  <a href="#">About</a>
+  <a href="#">Cart</a>
+  <a href="#" class="right">Contact Us</a>
+</div>
+
+<div class="row">
+  <div class="side">
+    <h2>Mama Mia</h2>
+    <h5>$45</h5>
+    <div class="C:\Users\aadit\OneDrive\Pictures" style="height:200px;"></div>
+    <h3>More</h3>
+    <div class="fakeimg" style="height:60px;">Image</div><br>
+    <div class="fakeimg" style="height:60px;">Image</div><br>
+    <div class="fakeimg" style="height:60px;">Image</div>
+  </div>
+  <div class="main">
+    <h2>Midnight Angels</h2>
+    <h5>$50</h5>
+    <div class="fakeimg" style="height:200px;">Image</div>
+    <br>
+    <h2>Sunburst</h2>
+    <h5>$40</h5>
+    <div class="fakeimg" style="height:200px;">Image</div>
+  </div>
+</div>
+
+<div class="footer">
+  <p>© Rosie's Flower Service</p>
+  <p><a href="mailto:"rosesarerosie@gmail.com"></a></p>
+</div>
+
+</body>
+</html>
